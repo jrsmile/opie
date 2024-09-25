@@ -8,6 +8,10 @@ on:
   # schedule:
   #   - cron: '0 */3 * * *'
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
   pull_and_upload_files:
     name: Pull and Upload Files
